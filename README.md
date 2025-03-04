@@ -1,7 +1,9 @@
-# cis-655-instruction-set
-cis-655-group-project
+# CIS655-instruction-set
 
-# build me
+>[!NOTE]
+>**Project done in collaboration with [Dan](https://github.com/radioxeth), [Matthew](https://github.com/how2useGit), [Jacob Montpetit](https://github.com/vikingfacer), and [Chang](https://github.com/ahamburglar).** <br>
+
+# Build
 Requirements: cmake & build-generator (make, nmake, ninja, etc...)
 _all instructions assume commands are ran in the root of the directory_
 
@@ -31,7 +33,9 @@ build the build ninja style
 ninja -C build
 ```
 
-# run me
+---
+
+# Run
 navigate to into build directory
 ```
 cd build
@@ -44,8 +48,3 @@ run the parser
 ```
 ./parser/parser
 ```
-
-
-
-
-
